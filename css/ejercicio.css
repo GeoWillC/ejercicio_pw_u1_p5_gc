@@ -1,0 +1,39 @@
+.container {
+    align-items: center;
+    display: block;
+    text-align: center;
+
+
+}
+
+body {
+    text-align: center;
+    align-items: center;
+}
+
+.cuadricula {
+    display: grid;
+    grid-template-columns: repeat(3, 90px);
+    column-gap: 5px;
+    column-gap: 5px;
+    margin-left: 42%;
+}
+
+button {
+    margin-top: 10px;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    background-color: #a0a555;
+    color: white;
+    font-size: 30px;
+}
+
+label {
+    text-align: center;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: rgb(34, 32, 32);
+}
